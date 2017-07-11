@@ -35,3 +35,11 @@ git checkout -- file命令中的--很重要，没有--，就变成了“切换�
 
 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
+9. 有时候可能导致push错了，如果要删除github上已经push的内容，需要进行如下三步：
+
+git rm --cached filename
+
+git commit -m "hehe"
+
+git push origin
+
