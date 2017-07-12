@@ -45,3 +45,5 @@ git push origin
 
 有的时候会出现src ref not match any，这样的话多半出现在push中加了文件夹，不过从我的使用来看应该是push只推送我们commit的内容
 
+10.有时候文件超过100m会导致push失败，这时候要么git rm --cached file，要么reset，
+
